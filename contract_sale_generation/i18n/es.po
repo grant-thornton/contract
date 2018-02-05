@@ -1,22 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * contract_sale_generation
-# 
-# Translators:
-# OCA Transbot <transbot@odoo-community.org>, 2017
+#	* contract_sale_generation
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 10.0\n"
+"Project-Id-Version: Odoo Server 10.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-12-08 01:46+0000\n"
-"PO-Revision-Date: 2017-12-08 01:46+0000\n"
-"Last-Translator: OCA Transbot <transbot@odoo-community.org>, 2017\n"
-"Language-Team: Spanish (https://www.transifex.com/oca/teams/23907/es/)\n"
+"POT-Creation-Date: 2018-02-05 12:44+0000\n"
+"PO-Revision-Date: 2018-02-05 12:44+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: es\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: \n"
 
 #. module: contract_sale_generation
 #: model:ir.model,name:contract_sale_generation.model_account_analytic_account
@@ -26,7 +23,7 @@ msgstr "Cuenta analítica"
 #. module: contract_sale_generation
 #: model:ir.ui.view,arch_db:contract_sale_generation.account_analytic_account_recurring_sale_form
 msgid "Create sales"
-msgstr ""
+msgstr "Crear ventas"
 
 #. module: contract_sale_generation
 #: selection:account.analytic.account,type:0
@@ -38,24 +35,24 @@ msgstr "Factura"
 #: selection:account.analytic.account,type:0
 #: selection:account.analytic.contract,type:0
 msgid "Sale"
-msgstr ""
+msgstr "Venta"
 
 #. module: contract_sale_generation
 #: model:ir.model.fields,field_description:contract_sale_generation.field_account_analytic_account_sale_autoconfirm
 #: model:ir.model.fields,field_description:contract_sale_generation.field_account_analytic_contract_sale_autoconfirm
 msgid "Sale autoconfirm"
-msgstr ""
+msgstr "Confirmación de venta"
 
 #. module: contract_sale_generation
 #: model:ir.actions.act_window,name:contract_sale_generation.act_recurring_sales
 msgid "Sales"
-msgstr ""
+msgstr "Ventas"
 
 #. module: contract_sale_generation
 #: model:ir.model.fields,field_description:contract_sale_generation.field_account_analytic_account_type
 #: model:ir.model.fields,field_description:contract_sale_generation.field_account_analytic_contract_type
 msgid "Type"
-msgstr ""
+msgstr "Tipo"
 
 #. module: contract_sale_generation
 #: code:addons/contract_sale_generation/models/account_analytic_account.py:53
@@ -66,11 +63,9 @@ msgstr "¡Seleccione un cliente para este contrato %s!"
 #. module: contract_sale_generation
 #: code:addons/contract_sale_generation/models/account_analytic_account.py:102
 #, python-format
-msgid ""
-"You must review start and end dates!\n"
+msgid "You must review start and end dates!\n"
 "%s"
-msgstr ""
-"Debe revisar las fechas de inicio y de fin\n"
+msgstr "Debe revisar las fechas de inicio y de fin\n"
 "%s"
 
 #. module: contract_sale_generation
@@ -81,4 +76,5 @@ msgstr "account.analytic.contract"
 #. module: contract_sale_generation
 #: model:ir.ui.view,arch_db:contract_sale_generation.account_analytic_account_recurring_sale_form
 msgid "⇒ Show recurring sales"
-msgstr ""
+msgstr "⇒ Mostrando ventas recurrentes"
+
